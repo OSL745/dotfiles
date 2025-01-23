@@ -10,7 +10,7 @@
     - With the name **SSH_KEY**
     - In the **Secret** field, paste in the contents of your .pem file (cat from your local command line and copy/paste)
     - Your screen should look as follows (note, in the screenshot the secret field has been left empty)
-    ![](.doc/new-secret.png)
+    ![New Repository Secret](.doc/new-secret.png)
     - Click the green button labelled **Add secret**
 1. Follow the documentation here to enable your dotfiles repo. https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account#dotfiles
 1. You may need to rebuild the container for any existing Codespaces you own.
