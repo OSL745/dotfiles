@@ -1,4 +1,5 @@
-# This repository contains the configuration files necessary to install your SSH (.pem) key from the AWS Learner Lab into every Codespace you create account wide using GitHub Secrets
+# Install AWS Learner Lab .pem key
+This repository contains the configuration files necessary to install your SSH (.pem) key from the AWS Learner Lab into every Codespace you create account wide using GitHub Secrets
 
 1. Use this as a template to create a repo called dotfiles (if you do not already have one). Your dotfiles repo can be private, and it will still work. The file **install.sh** installs the .pem file upon Codespace creation.
 1. Add your .pem file as a GitHub secret called "SSH_KEY" using the following steps in **YOUR** new repository:
